@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>all cats</title>
+</head>
+<body>
+
+
+  <ol>
+  	{% for act in allacts %}
+  	<h1>the activity {{ act.actioname }}</h1>
+	<h1>the description {{ act.description }} </h1>
+	<h1>the actype {{ act.actype }} </h1>
+	<h1>     </h1>
+  	{% endfor %}
+   </ol>
+
+</body>
+</html>
+
+
+
